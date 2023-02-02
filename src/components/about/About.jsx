@@ -4,6 +4,7 @@ import redapple from '../../assets/redapple.JPG'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
+import ImageReact from '../../assets/React-icon.svg.png'
 
 const About = () => {
   return (
@@ -14,7 +15,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className='about__me-image'>
-            <img src={redapple} alt='About Image'/>
+            <img src={ImageReact} alt='About Image'/>
           </div>
         </div>
 

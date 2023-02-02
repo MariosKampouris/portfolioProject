@@ -3,6 +3,7 @@ import './header.css'
 import CTA from './CTA'
 import ME from '../../assets/photobiocompressed.jpg'
 import HeaderSocials from './HeaderSocials'
+import ME2 from '../../assets/photobioCircle.jpg'
 
 function Header() {
   return (
@@ -15,7 +16,7 @@ function Header() {
         <HeaderSocials/>
 
         <div className='me'>
-          <img src={ME} alt="me"/>
+          <img src={ME2} alt="me"/>
         </div>
 
         <a href='#contact' className='scroll__down'>Scroll Down</a>
