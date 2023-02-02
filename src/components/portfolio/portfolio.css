@@ -1,15 +1,36 @@
-.portfolio__container {
+.portfolio__image__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2.5rem;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    justify-items: center;
 }
 
-.portfolio__item {
+.portfolio__Swiper {
     background: var(--color-bg-variant);
-    padding: 1.3rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    width: 90%;
+    border-color: var(--color-primary-variant);
+}
+
+.portfolio__Swiper__Image {
+    width: 20rem;
+    height: 20rem;
+    overflow: hidden;
+    border-radius: 2rem;
+    transition: var(--transition);
+}
+
+.portfolio__Swiper__Image:hover {
+    transform: scale(1.1);
+}
+
+.portfolio__item {
+    padding: 3rem;
+    height: 100%;
+    width: 100%;
 }
 
 .portfolio__item:hover {
