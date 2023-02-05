@@ -4,6 +4,7 @@ import CTA from './CTA'
 import ME from '../../assets/photobiocompressed.jpg'
 import HeaderSocials from './HeaderSocials'
 import ME2 from '../../assets/photobioCircle.jpg'
+import Divider from '../divider/Divider'
 
 function Header() {
   return (
@@ -21,7 +22,6 @@ function Header() {
 
         <a href='#contact' className='scroll__down'>Scroll Down</a>
       </div>
-
     </header>
   )
 }

@@ -5,10 +5,12 @@ import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
 import ImageReact from '../../assets/React-icon.svg.png'
+import Divider from '../divider/Divider'
 
 const About = () => {
   return (
     <section id='about'>
+      <Divider/>
       <h5>Get To Know</h5>
       <h2>About Me</h2>
 
@@ -28,20 +30,21 @@ const About = () => {
             </article>
             <article className='about__card'>
               <FiUsers className='about__icon'/>
-              <h5>Clients/Passion for</h5>
-              <small>200+ Worldwide</small>
+              <h5>Passion For</h5>
+              <small>Web Development</small>
+              <small>- Game Development</small>
+              <small>- Game Design</small>
+              <small>- New Technologies</small>
             </article>
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>1 in Game Development</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut egestas ac risus a pellentesque. 
-            Nulla eget neque arcu. Nulla non gravida elit. Duis et facilisis ligula. 
-            Fusce nec magna vel magna posuere aliquam id sit amet magna.
+            Hello, I am Marios Kampouris and I live in Thessaloniki, Greece. I am a graduate student of International Hellenic University and have a passion for technology, games and motorcycles.
           </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>

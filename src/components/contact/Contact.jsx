@@ -5,6 +5,7 @@ import {RiMessengerLine} from 'react-icons/ri'
 import {BsWhatsapp} from 'react-icons/bs'
 import {useRef} from 'react';
 import emailjs from '@emailjs/browser';
+import Divider from '../divider/Divider'
 
 const Contact = () => {
   const form = useRef();
@@ -24,6 +25,7 @@ const Contact = () => {
 
   return (
     <section id='contact'>
+      <Divider/>
       <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
 
@@ -38,13 +40,13 @@ const Contact = () => {
           <article className='contact__option'>
             <RiMessengerLine className='contact__option-icon'/>
             <h4>Messenger</h4>
-            <h5>dummymessenger</h5>
+            <h5>Function not implememented yet</h5>
             <a href='mailto:dummyegator@gmail.com' target='_blank' rel='noreferrer'>Send a Message</a>
           </article>
           <article className='contact__option'>
             <BsWhatsapp className='contact__option-icon'/>
             <h4>WhatsApp</h4>
-            <h5>+153113132</h5>
+            <h5>Function not implememented yet</h5>
             <a href='mailto:dummyegator@gmail.com' target='_blank' rel='noreferrer'>Send a Message</a>
           </article>
         </div>

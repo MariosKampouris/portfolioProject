@@ -7,10 +7,12 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Pagination, Navigation} from "swiper";
 import redapple from '../../assets/redapple.JPG'
+import Divider from "../divider/Divider";
 
 function Portfolio() {
   return (
     <section id='portfolio'>
+      <Divider/>
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 
@@ -43,9 +45,7 @@ function Portfolio() {
               </div>
               <h3>Unity 3D RPG Game Project</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut egestas ac risus a pellentesque. 
-                Nulla eget neque arcu. Nulla non gravida elit. Duis et facilisis ligula. 
-                Fusce nec magna vel magna posuere aliquam id sit amet magna.
+                This is a First Person Open World RPG Game made in Unity Game Engine using C#. This game is going to be focused around role playing, melee combat and exploration. Game is still under development.
               </p>
             </div>
           </SwiperSlide>

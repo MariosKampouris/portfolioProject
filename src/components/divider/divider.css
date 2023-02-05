@@ -1,0 +1,13 @@
+.divider{
+    content: '';
+    width: 60%;
+    height: 1px;
+    background: var(--color-primary);
+    margin-bottom: 10rem;
+}
+
+.divider__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
