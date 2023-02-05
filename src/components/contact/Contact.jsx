@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
 import {RiMessengerLine} from 'react-icons/ri'
@@ -6,11 +6,19 @@ import {BsWhatsapp} from 'react-icons/bs'
 import {useRef} from 'react';
 import emailjs from '@emailjs/browser';
 import Divider from '../divider/Divider'
+import "../modal/modal.css"
 
 const Contact = () => {
   const form = useRef();
+  const [modal, setModal] = useState(false);
+
+  const toggleModal = () => {
+    setModal(!modal)
+  }
 
   const sendEmail = (e) => {
+    toggleModal();
+
     e.preventDefault();
 
     emailjs.sendForm('service_ygywjye', 'template_qqp5xkq', form.current, 'XYXJihG1gzsl3slkU')
@@ -58,6 +66,19 @@ const Contact = () => {
           <button type='submit' className='btn btn-primary'>Submit Form</button>
         </form>
       </div>
+
+      {modal && (      
+      <div className='modal'>
+        <div className='overlay'>
+            <div className='modal__content'>
+                <h2 className='modal__header'>Success!</h2>
+                <p>Message successfully sent.</p>
+                <button className='btn btn-primary close__modal__button' onClick={toggleModal}>CLOSE</button>
+            </div>
+        </div>
+      </div>
+      )}
+
     </section>
   )
 }
