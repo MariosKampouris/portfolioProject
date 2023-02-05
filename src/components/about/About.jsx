@@ -4,7 +4,7 @@ import redapple from '../../assets/redapple.JPG'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
-import ImageReact from '../../assets/React-icon.svg.png'
+import ImageReact from '../../assets/React-icon.silver.png'
 import Divider from '../divider/Divider'
 
 const About = () => {
