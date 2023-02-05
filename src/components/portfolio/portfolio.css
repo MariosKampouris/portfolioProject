@@ -15,7 +15,15 @@
     border-color: var(--color-primary-variant);
 }
 
-.portfolio__Swiper__Image {
+.portfolio__Swiper__Image__AR {
+    width: 12rem;
+    height: 26rem;
+    overflow: hidden;
+    border-radius: 2rem;
+    transition: var(--transition);
+}
+
+.portfolio__Swiper__Image__Legends {
     width: 20rem;
     height: 20rem;
     overflow: hidden;
@@ -23,9 +31,14 @@
     transition: var(--transition);
 }
 
-.portfolio__Swiper__Image:hover {
+.portfolio__Swiper__Image__AR:hover {
     transform: scale(1.1);
 }
+
+.portfolio__Swiper__Image__Legends:hover {
+    transform: scale(1.1);
+}
+
 
 .portfolio__item {
     padding: 3rem;
