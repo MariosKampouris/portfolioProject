@@ -6,7 +6,7 @@ function HeaderSocials() {
   return (
     <div className='header__socials'>
         <a href="https://www.linkedin.com/in/marios-kampouris-01a675234/" target="_blank"><BsLinkedin/></a>
-        <a href="https://github.com" target="_blank"><BsGithub/></a>
+        <a href="https://github.com/MariosKampouris" target="_blank"><BsGithub/></a>
     </div>
   )
 }

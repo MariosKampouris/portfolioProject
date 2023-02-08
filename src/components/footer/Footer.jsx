@@ -18,8 +18,8 @@ function Footer() {
       </ul>
 
       <div className='footer__socials'>
-        <a href='https://facebook.com'><FaFacebookF/></a>
-        <a href='https://instagram.com'><FiInstagram/></a>
+        <a href='https://www.facebook.com/marios.kamp.5'><FaFacebookF/></a>
+        <a href='https://www.instagram.com/marios_kamp_/'><FiInstagram/></a>
         <a href='https://twitter.com'><IoLogoTwitter/></a>
       </div>
 

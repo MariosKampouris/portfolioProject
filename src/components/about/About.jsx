@@ -29,21 +29,21 @@ const About = () => {
             </article>
             <article className='about__card'>
               <FiUsers className='about__icon'/>
-              <h5>Passion For</h5>
+              <h5>Coding Passion</h5>
               <small>Web Development</small>
-              <small>- Game Development</small>
-              <small>- Game Design</small>
-              <small>- New Technologies</small>
+              <small> - Game Development</small>
+              <small> - Game Design</small>
+              <small> - New Technologies</small>
             </article>
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
-              <h5>Projects</h5>
-              <small>1 in Game Development</small>
+              <h5>Degree</h5>
+              <small>Bachelor in Information Technology Engineering at International Hellenic University.</small>
             </article>
           </div>
 
           <p>
-            Hello, I am Marios Kampouris and I live in Thessaloniki, Greece. I am a graduate student of International Hellenic University and have a passion for technology, games and motorcycles.
+            Hello, I am Marios Kampouris and I live in Thessaloniki, Greece. I am a graduate student of International Hellenic University and have a passion for technology, video games and coding.
           </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>

@@ -72,7 +72,7 @@ function Portfolio() {
               <p>
                 This project was made as part of my University thesis. The application is made for mobile phones and was created by using the Unity Game Engine. 
                 All 3D and 2D game objects were created by using Blender and Photoshop respectively. Augmented Reality techniques were used in order for the player/student to interact with various objects in the game with unique and fun ways.
-                The project was presented at the University in front of a crowd and has been rated 10.
+                The project was presented at the International Hellenic University in front of an audience.
               </p>
             </div>
           </SwiperSlide>
