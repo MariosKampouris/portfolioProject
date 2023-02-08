@@ -18,35 +18,35 @@ function Experience() {
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>HTML</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'></small>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>CSS</h4>
-                <small className='text-light'>Intermediate</small>
+                <small className='text-light'></small>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>React</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'></small>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>Javascript</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'></small>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>Ext JS</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'></small>
               </div>
             </article>
           </div>
@@ -59,35 +59,144 @@ function Experience() {
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>Node JS</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'></small>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>Java</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'></small>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>XML</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'></small>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>Oracle DB</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'></small>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>Hibernate</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'></small>
+              </div>
+            </article>
+          </div>
+        </div>
+        {/*GAME DEVELOPMENT*/}
+        <div className='experience__backend'>
+          <h3>Game Development</h3>
+          <div className='experience__content'>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>Unity Game Engine</h4>
+                <small className='text-light'></small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>C#</h4>
+                <small className='text-light'></small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>Blender 3D</h4>
+                <small className='text-light'></small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>Game UI/UX (Photoshop)</h4>
+                <small className='text-light'></small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>Game Design</h4>
+                <small className='text-light'></small>
+              </div>
+            </article>
+          </div>
+        </div>
+        {/*MOBILE DEVELOPMENT*/}
+        <div className='experience__backend'>
+          <h3>Mobile Development</h3>
+          <div className='experience__content'>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>React Native</h4>
+                <small className='text-light'></small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>Java</h4>
+                <small className='text-light'></small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>Mobile UI/UX</h4>
+                <small className='text-light'></small>
+              </div>
+            </article>
+          </div>
+        </div>
+        {/*QUALITY ASSURANCE*/}
+        <div className='experience__backend'>
+          <h3>Quality Assurance</h3>
+          <div className='experience__content'>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>Manual Testing Mobile Apps</h4>
+                <small className='text-light'></small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>Manual Testing Web Apps</h4>
+                <small className='text-light'></small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>API Testing (Postman)</h4>
+                <small className='text-light'></small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>Test Case Execution</h4>
+                <small className='text-light'></small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>Error Documentation and Troubleshooting</h4>
+                <small className='text-light'></small>
               </div>
             </article>
           </div>
