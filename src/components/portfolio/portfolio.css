@@ -24,8 +24,24 @@
 }
 
 .portfolio__Swiper__Image__Legends {
-    width: 20rem;
-    height: 20rem;
+    width: 30rem;
+    height: 16.8rem;
+    overflow: hidden;
+    border-radius: 2rem;
+    transition: var(--transition);
+}
+
+.portfolio__Swiper__Image__Blender {
+    width: 30rem;
+    height: 16.2rem;
+    overflow: hidden;
+    border-radius: 2rem;
+    transition: var(--transition);
+}
+
+.portfolio__Swiper__Image__Meals {
+    width: 12rem;
+    height: 26rem;
     overflow: hidden;
     border-radius: 2rem;
     transition: var(--transition);
@@ -39,6 +55,18 @@
     transform: scale(1.1);
 }
 
+.portfolio__Swiper__Image__Blender:hover {
+    transform: scale(1.1);
+}
+
+.portfolio__Swiper__Image__Meals:hover {
+    transform: scale(1.1);
+}
+
+.portfolio__Swiper__Icon {
+    color: var(--color-primary);
+    font-size: 1.4rem;
+}
 
 .portfolio__item {
     padding: 3rem;

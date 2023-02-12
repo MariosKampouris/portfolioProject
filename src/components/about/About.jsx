@@ -3,6 +3,8 @@ import './about.css'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
+import {GiOfficeChair} from 'react-icons/gi'
+import {BiHeart} from 'react-icons/bi'
 import ImageReact from '../../assets/React-icon-silvern.png'
 import Divider from '../divider/Divider'
 
@@ -23,20 +25,25 @@ const About = () => {
         <div className="about__content">
           <div className='about__cards'>
             <article className='about__card'>
-              <FaAward className='about__icon'/>
+              <GiOfficeChair className='about__icon'/>
               <h5>Experience</h5>
-              <small>1.5+ years working</small>
+              <small>
+                    - 8 months Quality Assurance <br/> - 10 months FullStack Web Developer
+              </small>
+              
             </article>
             <article className='about__card'>
-              <FiUsers className='about__icon'/>
+              <BiHeart className='about__icon'/>
               <h5>Coding Passion</h5>
-              <small>Web Development</small>
-              <small> - Game Development</small>
-              <small> - Game Design</small>
-              <small> - New Technologies</small>
+              <small>
+                - Web Development <br/>
+                - Game Development <br/>
+                - Game Design <br/>
+                - Cutting Edge Technologies <br/>
+              </small>
             </article>
             <article className='about__card'>
-              <VscFolderLibrary className='about__icon'/>
+              <FaAward className='about__icon'/>
               <h5>Degree</h5>
               <small>Bachelor in Information Technology Engineering at International Hellenic University.</small>
             </article>
