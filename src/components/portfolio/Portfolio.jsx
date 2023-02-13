@@ -154,7 +154,7 @@ function Portfolio() {
           <SwiperSlide>
             <div className="portfolio__item">
               <div className="lastSlide">
-                <h3><FaReact className="portfolio__Swiper__Icon"/> The Page you are currently viewing is a small project itself! <FaReact className="portfolio__Swiper__Icon"/></h3>
+                <h3><FaReact className="portfolio__Swiper__Icon"/> The Page you are currently viewing is a small project itself. <FaReact className="portfolio__Swiper__Icon"/></h3>
               </div>
             </div>
           </SwiperSlide>
