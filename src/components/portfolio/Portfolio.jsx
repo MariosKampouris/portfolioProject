@@ -21,6 +21,7 @@ import {CiPizza} from 'react-icons/ci'
 import {SiBlender} from 'react-icons/si'
 import {TbAugmentedReality} from 'react-icons/tb'
 import {IoTimeOutline} from 'react-icons/io5'
+import {FaReact} from 'react-icons/fa'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import "swiper/css/pagination";
@@ -54,25 +55,6 @@ function Portfolio() {
         onSwiper={(swiper) => console.log(swiper)}
       >
           <SwiperSlide>
-            <div className="portfolio__item"> 
-              <div className="portfolio__image__container">
-                <div className="portfolio__Swiper__Image__Legends">
-                  <img src={Game1} alt='About Image'/>
-                </div>
-                <div className="portfolio__Swiper__Image__Legends">
-                  <img src={Game2} alt='About Image'/>
-                </div>
-                <div className="portfolio__Swiper__Image__Legends">
-                  <img src={Game4} alt='About Image'/>
-                </div>
-              </div>
-              <h3>Unity 3D RPG Game Project <FaUnity className="portfolio__Swiper__Icon"/></h3>
-              <p>
-                This is a First Person Open World RPG Game made in Unity Game Engine using C#. The game is going to be focused around role playing and exploration. Combat will mainly be focused on melee weapons and a fast paced real time combat system. Game will also feature enemy bosses, inventory, a looting system, and important dialogues between player and in game friendly characters. Looting, talking with NPCs and other activities might help the player find some hints about hidden content in the game. The game will also have a leveling system through which the player will unlock a wide variety of skills. Game is still under development.
-              </p>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
           <div className="portfolio__item"> 
               <div className="portfolio__image__container">
                 <div className="portfolio__Swiper__Image__AR">
@@ -90,6 +72,25 @@ function Portfolio() {
                 This project was made as part of my University thesis. The application is made for mobile phones and was created by using the Unity Game Engine. 
                 All 3D and 2D game objects were created by using Blender and Photoshop respectively. Augmented Reality techniques were used in order for the player/student to interact with various objects in the game with unique and fun ways.
                 The project was presented at the International Hellenic University in front of an audience.
+              </p>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="portfolio__item"> 
+              <div className="portfolio__image__container">
+                <div className="portfolio__Swiper__Image__Legends">
+                  <img src={Game1} alt='About Image'/>
+                </div>
+                <div className="portfolio__Swiper__Image__Legends">
+                  <img src={Game2} alt='About Image'/>
+                </div>
+                <div className="portfolio__Swiper__Image__Legends">
+                  <img src={Game4} alt='About Image'/>
+                </div>
+              </div>
+              <h3>Unity 3D RPG Game Project <FaUnity className="portfolio__Swiper__Icon"/></h3>
+              <p>
+                This is a First Person Open World RPG Game made in Unity Game Engine using C#. The game is going to be focused around role playing and exploration. Combat will mainly be focused on melee weapons and a fast paced real time combat system. Game will also feature enemy bosses, inventory, a looting system, and important dialogues between player and in game friendly characters. Looting, talking with NPCs and other activities might help the player find some hints about hidden content in the game. The game will also have a leveling system through which the player will unlock a wide variety of skills. Game is still under development.
               </p>
             </div>
           </SwiperSlide>
@@ -132,7 +133,7 @@ function Portfolio() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-          <div className="portfolio__item"> 
+            <div className="portfolio__item"> 
               <div className="portfolio__image__container">
                 <div className="portfolio__Swiper__Image__Meals">
                   <img src={Time1} alt='About Image'/>
@@ -148,6 +149,13 @@ function Portfolio() {
               <p>
                 This Time Management app was created using React Native. In this application the user can start some activities that he wants to focus in, and set a timer for the time he wants to focus on that specific activity. The timer then starts and the user has to focus on his activity. The application prevents the user from using other apps on his phone by pausing the timer every time the user closes the app. That way the user can really focus on the task at hand. The user gets to pause the timer every now and then. The app laso features an activity logger where the user can see all the logged and successfully focused on activities of the day. Project was part of a React Native Online Course on Udemy.
               </p>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="portfolio__item">
+              <div className="lastSlide">
+                <h3><FaReact className="portfolio__Swiper__Icon"/> The Page you are currently viewing is a small project itself! <FaReact className="portfolio__Swiper__Icon"/></h3>
+              </div>
             </div>
           </SwiperSlide>
       </Swiper>
