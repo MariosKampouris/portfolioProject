@@ -77,7 +77,7 @@ function Portfolio() {
           </SwiperSlide>
           <SwiperSlide>
             <div className="portfolio__item"> 
-              <div className="portfolio__image__container">
+              <div className="portfolio__image__container__wide">
                 <div className="portfolio__Swiper__Image__Legends">
                   <img src={Game1} alt='About Image'/>
                 </div>
@@ -96,7 +96,7 @@ function Portfolio() {
           </SwiperSlide>
           <SwiperSlide>
           <div className="portfolio__item"> 
-              <div className="portfolio__image__container">
+              <div className="portfolio__image__container__wide">
                 <div className="portfolio__Swiper__Image__Blender">
                   <img src={car1} alt='About Image'/>
                 </div>

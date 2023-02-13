@@ -69,6 +69,12 @@ header {
     header{
         height: 68vh;
     }
+    .me{
+        width: 12rem;
+        height: 12rem;
+        left: calc(50% - 6rem);
+        margin-top: 2.5rem;
+    }
 }
 
 /* ===================== MEDIA QUERIES (SMALL DEVICES) ========================= */
