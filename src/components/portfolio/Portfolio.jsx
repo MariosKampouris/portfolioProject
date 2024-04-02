@@ -3,10 +3,9 @@ import './portfolio.css'
 import AR1 from '../../assets/PortfolioAssets/kef2finditems.jpg'
 import AR2 from '../../assets/PortfolioAssets/kef2finditemshelp.jpg'
 import AR3 from '../../assets/PortfolioAssets/kef2pirama.jpg'
-import Game1 from '../../assets/PortfolioAssets/Game1.JPG'
-import Game2 from '../../assets/PortfolioAssets/Game2.JPG'
-import Game3 from '../../assets/PortfolioAssets/Game3.JPG'
-import Game4 from '../../assets/PortfolioAssets/Game4.JPG'
+import Game1 from '../../assets/PortfolioAssets/Game1.png'
+import Game2 from '../../assets/PortfolioAssets/Game2.png'
+import Game3 from '../../assets/PortfolioAssets/Game3.png'
 import car1 from '../../assets/PortfolioAssets/car1.JPG'
 import car2 from '../../assets/PortfolioAssets/car2.JPG'
 import car3 from '../../assets/PortfolioAssets/car3.png'
@@ -85,7 +84,7 @@ function Portfolio() {
                   <img src={Game2} alt='About Image'/>
                 </div>
                 <div className="portfolio__Swiper__Image__Legends">
-                  <img src={Game4} alt='About Image'/>
+                  <img src={Game3} alt='About Image'/>
                 </div>
               </div>
               <h3>Unity 3D RPG Game Project <FaUnity className="portfolio__Swiper__Icon"/></h3>

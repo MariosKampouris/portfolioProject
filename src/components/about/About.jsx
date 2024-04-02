@@ -28,7 +28,7 @@ const About = () => {
               <GiOfficeChair className='about__icon'/>
               <h5>Experience</h5>
               <small>
-                    - 8 months Quality Assurance <br/> - 10 months FullStack Web Developer
+                    - 2+ years FullStack Web Developer <br/> - 8 months Quality Assurance
               </small>
               
             </article>
