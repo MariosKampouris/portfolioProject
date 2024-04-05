@@ -50,6 +50,13 @@
     margin-bottom: 1rem;
 }
 
+.about__dashIcon {
+    color: var(--color-primary);
+    font-size: 0.65rem;
+    vertical-align: middle;
+    padding-bottom: 1px;
+}
+
 .about__card h5 {
     font-size: 0.95rem;
 }

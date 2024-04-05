@@ -5,6 +5,7 @@ import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
 import {GiOfficeChair} from 'react-icons/gi'
 import {BiHeart} from 'react-icons/bi'
+import {HiMinusSm} from "react-icons/hi";
 import ImageReact from '../../assets/React-icon-silvern.png'
 import Divider from '../divider/Divider'
 
@@ -28,7 +29,7 @@ const About = () => {
               <GiOfficeChair className='about__icon'/>
               <h5>Experience</h5>
               <small>
-                    - 2+ years FullStack Web Developer <br/> - 8 months Quality Assurance
+              <HiMinusSm className='about__dashIcon'/> 2+ years Fullstack Web Developer <br/> <HiMinusSm className='about__dashIcon'/> 8 months Quality Assurance
               </small>
               
             </article>
@@ -36,10 +37,10 @@ const About = () => {
               <BiHeart className='about__icon'/>
               <h5>Coding Passion</h5>
               <small>
-                - Web Development <br/>
-                - Game Development <br/>
-                - Game Design <br/>
-                - Cutting Edge Technologies <br/>
+              <HiMinusSm className='about__dashIcon'/> Web Development <br/>
+              <HiMinusSm className='about__dashIcon'/> Game Development <br/>
+              <HiMinusSm className='about__dashIcon'/> Game Design <br/>
+              <HiMinusSm className='about__dashIcon'/> Cutting Edge Technologies <br/>
               </small>
             </article>
             <article className='about__card'>
