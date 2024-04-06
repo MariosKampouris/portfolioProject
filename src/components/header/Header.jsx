@@ -3,6 +3,18 @@ import './header.css'
 import CTA from './CTA'
 import HeaderSocials from './HeaderSocials'
 import ME2 from '../../assets/photobioCircle.jpg'
+import Lottie from 'react-lottie'
+import * as animationData from '../../assets/Wave.json'
+
+
+const defaultOptions = {
+  loop: false,
+  autoplay: true, 
+  animationData: animationData,
+  rendererSettings: {
+    preserveAspectRatio: 'xMidYMid slice'
+  }
+}
 
 function Header() {
   return (
@@ -13,13 +25,24 @@ function Header() {
         <h5 className='text-light'>FrontEnd / Fullstack Web Developer</h5>
         <CTA/>
         <HeaderSocials/>
-
+        <div className='header_animation_container'>
+            <Lottie options={defaultOptions}
+                height={400}
+                width={800}
+            />
+        </div>
         <div className='me'>
           <img src={ME2} alt="me"/>
         </div>
+        <div className='header_inside_animation_container'>
+          <text className='header_animation_text'>Passionate for Front End Development</text>
+        </div>
+
 
         <a href='#contact' className='scroll__down'>Scroll Down</a>
       </div>
+
+
     </header>
   )
 }
