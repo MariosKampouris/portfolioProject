@@ -11,7 +11,7 @@ function Experience() {
       <h2>My Experience</h2>
 
       <div className='container experience__container'>
-        <div className='experience__frontend'>
+        <div className='experience__card'>
           <h3>Frontend Development</h3>
           <div className='experience__content'>
           <article className='experience__details'>
@@ -59,7 +59,7 @@ function Experience() {
           </div>
         </div>
         {/*EXPERIENCE FRONTEND*/}
-        <div className='experience__backend'>
+        <div className='experience__card'>
           <h3>Backend Development</h3>
           <div className='experience__content'>
             <article className='experience__details'>
@@ -107,7 +107,7 @@ function Experience() {
           </div>
         </div>
         {/*GAME DEVELOPMENT*/}
-        <div className='experience__backend'>
+        <div className='experience__card'>
           <h3>Game Development</h3>
           <div className='experience__content'>
             <article className='experience__details'>
@@ -148,7 +148,7 @@ function Experience() {
           </div>
         </div>
         {/*MOBILE DEVELOPMENT*/}
-        <div className='experience__backend'>
+        <div className='experience__card'>
           <h3>Mobile Development</h3>
           <div className='experience__content'>
             <article className='experience__details'>
@@ -175,7 +175,7 @@ function Experience() {
           </div>
         </div>
         {/*QUALITY ASSURANCE*/}
-        <div className='experience__backend'>
+        <div className='experience__card'>
           <h3>Quality Assurance</h3>
           <div className='experience__content'>
             <article className='experience__details'>

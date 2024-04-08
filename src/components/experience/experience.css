@@ -1,3 +1,25 @@
+/* animation control */
+
+
+@media (prefers-reduced-motion: no-preference){
+/* animations */
+@keyframes fade-in{
+    from {scale: 0.8; opacity: 0;}
+    to {scale: 1; opacity: 1;}
+}
+
+
+    .experience__card {
+        opacity: 0;
+        animation-name: fade-in;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+        animation-timeline: view();
+        animation-range: entry;
+    }
+}
+
+
 .experience__container{
     display: grid;
     grid-template-columns: 1fr 1fr;
