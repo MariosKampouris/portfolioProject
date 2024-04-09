@@ -35,7 +35,7 @@ function Header() {
           <img src={ME2} alt="me"/>
         </div>
         <div className='header_inside_animation_container'>
-          <text className='header_animation_text'>Passionate for Front End Development</text>
+          <text className='header_animation_text'>Devoted to Web Design</text>
         </div>
 
 
