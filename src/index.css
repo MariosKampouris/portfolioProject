@@ -29,15 +29,29 @@ html {
     scroll-behavior: smooth;
 }
 
+
+
 ::-webkit-scrollbar{
-    display: none;
+    /* display: none; */
+    width: 6px;
 }
+
+::-webkit-scrollbar-track {
+    background: var(--color-bg);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-primary);
+    border-radius: 100vw;
+}
+
 
 body{
     font-family: 'Poppins', sans-serif;
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
+    overflow-x: hidden;
     /* background-image: url(../src/assets/bg-texture.png); */
 }
 
