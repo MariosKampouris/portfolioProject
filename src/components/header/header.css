@@ -24,12 +24,13 @@ header {
     overflow: hidden;
     display: flex;
     justify-content: center;
+    vertical-align: middle;
 }
 
 .header_inside_animation_container{
     position: absolute;
     text-align: center;
-    top: calc(53%);
+    top: calc(50%);
 }
 
 .header_animation_text{

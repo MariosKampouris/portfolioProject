@@ -6,8 +6,8 @@
     }
 
     @keyframes slide-in{
-        from {transform: translateX(500px);}
-        to {transform: translateX(0);}
+        from {transform: translateX(500px); opacity: 0;}
+        to {transform: translateX(0); opacity: 1;}
     }
 }
 
@@ -35,7 +35,7 @@
     animation-name: fade-in;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
-    animation-timeline: view();
+    animation-timeline: view(y 80px);
     animation-range: entry;
 }
 
@@ -70,10 +70,11 @@ input, textarea {
     border: 2px solid var(--color-primary-variant);
     resize: none;
     color: var(--color-white);
+    opacity: 0;
     animation-name: slide-in;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
-    animation-timeline: view();
+    animation-timeline: view(y 180px);
     animation-range: entry;
 }
 

@@ -14,7 +14,7 @@
         animation-name: fade-in;
         animation-timing-function: linear;
         animation-fill-mode: forwards;
-        animation-timeline: view();
+        animation-timeline: view(y 50px);
         animation-range: entry;
     }
 }

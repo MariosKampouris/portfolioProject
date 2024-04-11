@@ -25,7 +25,7 @@
     animation-timing-function: ease;
     animation-duration: 1s;
     animation-fill-mode: forwards;
-    animation-timeline: view();
+    animation-timeline: view(y 80px);
     animation-range: entry;
 }
 
