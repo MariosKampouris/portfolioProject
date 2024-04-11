@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolioProject/static/css/main.f9d74115.css",
-    "main.js": "/portfolioProject/static/js/main.32bd1fb4.js",
+    "main.css": "/portfolioProject/static/css/main.a17c6ba0.css",
+    "main.js": "/portfolioProject/static/js/main.c52c0d8a.js",
     "static/media/Game1.png": "/portfolioProject/static/media/Game1.95159255c33d0b298b52.png",
     "static/media/car3.png": "/portfolioProject/static/media/car3.8c0d6c15df38c5477dd5.png",
     "static/media/Game2.png": "/portfolioProject/static/media/Game2.433918c038b78aa704fa.png",
@@ -10,7 +10,7 @@
     "static/media/kef2pirama.jpg": "/portfolioProject/static/media/kef2pirama.d5afdd4d8d5dc96c6f76.jpg",
     "static/media/kef2finditems.jpg": "/portfolioProject/static/media/kef2finditems.c1bf6cbca8ae145a6aa4.jpg",
     "static/media/kef2finditemshelp.jpg": "/portfolioProject/static/media/kef2finditemshelp.fff4e66194c8b60738c5.jpg",
-    "static/media/Marios_Kampouris_Resume.pdf": "/portfolioProject/static/media/Marios_Kampouris_Resume.54a0342296e57fd34871.pdf",
+    "static/media/Marios_Kampouris_Resume.pdf": "/portfolioProject/static/media/Marios_Kampouris_Resume.64bb884f3a80a1497974.pdf",
     "static/media/car1.JPG": "/portfolioProject/static/media/car1.740aa44fc9e5106d9ded.JPG",
     "static/media/car2.JPG": "/portfolioProject/static/media/car2.edb66b1865ef7d2022b2.JPG",
     "static/media/meals1.JPG": "/portfolioProject/static/media/meals1.f9acc7b137c9efecb974.JPG",
@@ -21,11 +21,11 @@
     "static/media/meals3.JPG": "/portfolioProject/static/media/meals3.8fc37f1aca23dbdbbdbf.JPG",
     "static/media/Time2.JPG": "/portfolioProject/static/media/Time2.aab465d4e5d298fe0be1.JPG",
     "index.html": "/portfolioProject/index.html",
-    "main.f9d74115.css.map": "/portfolioProject/static/css/main.f9d74115.css.map",
-    "main.32bd1fb4.js.map": "/portfolioProject/static/js/main.32bd1fb4.js.map"
+    "main.a17c6ba0.css.map": "/portfolioProject/static/css/main.a17c6ba0.css.map",
+    "main.c52c0d8a.js.map": "/portfolioProject/static/js/main.c52c0d8a.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9d74115.css",
-    "static/js/main.32bd1fb4.js"
+    "static/css/main.a17c6ba0.css",
+    "static/js/main.c52c0d8a.js"
   ]
 }
