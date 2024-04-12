@@ -96,11 +96,13 @@ header {
         height: 68vh;
     }
     .me{
+        position: relative;
         width: 12rem;
         height: 12rem;
-        left: calc(50% - 6rem);
-        top: calc(40%);
-        margin-top: 2.5rem;
+        margin-top: 10%;
+        /* left: calc(50% - 6rem);
+        top: calc(40%); */
+        /* margin-top: 2.5rem; */
     }
     .header_animation_container{
         display: none;
@@ -113,7 +115,7 @@ header {
 /* ===================== MEDIA QUERIES (SMALL DEVICES) ========================= */
 @media screen and (max-width: 600px){
     header{
-        height: 70vh;
+        height: 65%;
     }
 
     .header__socials,
