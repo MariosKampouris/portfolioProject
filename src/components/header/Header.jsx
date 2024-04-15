@@ -27,8 +27,8 @@ function Header() {
         <HeaderSocials/>
         <div className='header_animation_container'>
             <Lottie options={defaultOptions}
-                height={400}
-                width={800}
+                // height={400}
+                // width={800}
             />
             <div className='header_inside_animation_container'>
               <text className='header_animation_text'>Devoted to Web Design</text>

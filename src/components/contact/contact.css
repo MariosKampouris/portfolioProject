@@ -74,7 +74,7 @@ input, textarea {
     animation-name: slide-in;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
-    animation-timeline: view(y 180px);
+    animation-timeline: view(y 150px);
     animation-range: entry;
 }
 
