@@ -1,5 +1,7 @@
 import React, { useRef, useState } from "react"
 import './portfolio.css'
+import myVehicle1 from '../../assets/PortfolioAssets/myVehicleApp1.png'
+import myVehicle2 from '../../assets/PortfolioAssets/myVehicleApp2.png'
 import AR1 from '../../assets/PortfolioAssets/kef2finditems.jpg'
 import AR2 from '../../assets/PortfolioAssets/kef2finditemshelp.jpg'
 import AR3 from '../../assets/PortfolioAssets/kef2pirama.jpg'
@@ -18,6 +20,7 @@ import Time3 from '../../assets/PortfolioAssets/time3.JPG'
 import {FaUnity} from 'react-icons/fa'
 import {CiPizza} from 'react-icons/ci'
 import {SiBlender} from 'react-icons/si'
+import { IoCarSport } from "react-icons/io5";
 import {TbAugmentedReality} from 'react-icons/tb'
 import {IoTimeOutline} from 'react-icons/io5'
 import {FaReact} from 'react-icons/fa'
@@ -53,6 +56,22 @@ function Portfolio() {
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}
       >
+        <SwiperSlide>
+          <div className="portfolio__item"> 
+              <div className="portfolio__image__container__wide__twoImages">
+                <div className="portfolio__Swiper__Image__My_Vehicles">
+                  <img src={myVehicle1} alt='About Image'/>
+                </div>
+                <div className="portfolio__Swiper__Image__My_Vehicles">
+                  <img src={myVehicle2} alt='About Image'/>
+                </div>
+              </div>
+              <h3>My Vehicle Hub: Streamlined Vehicle Management with Angular and Google Firebase <IoCarSport className="portfolio__Swiper__Icon"/></h3>
+              <p>
+              This Angular-based application offers comprehensive vehicle management capabilities, enabling users to effortlessly save, organize, and view their own vehicles alongside those of others. Leveraging Google Firebase as the backend database, along with advanced features like user authentication, ag-grid integration, and Angular's powerful technologies, this project delivers a seamless and intuitive vehicle management experience.
+              </p>
+            </div>
+          </SwiperSlide>
           <SwiperSlide>
           <div className="portfolio__item"> 
               <div className="portfolio__image__container">

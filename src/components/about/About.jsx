@@ -51,7 +51,7 @@ const About = () => {
           </div>
 
           <p>
-          Experienced fullstack developer with two years of proven expertise, now transitioning towards front end specialization. Holding a degree in Information Technology from the International Hellenic University, I bring a solid foundation to my craft. Passionate about refining user interfaces to enhance digital experiences.
+          Experienced fullstack developer with proven expertise, now transitioning towards front end specialization. Holding a degree in Information Technology from the International Hellenic University, I bring a solid foundation to my craft. Passionate about refining user interfaces to enhance digital experiences.
           </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
