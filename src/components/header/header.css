@@ -14,9 +14,10 @@ header {
 }
 
 .header_animation_container{
+    position: relative;
     background: linear-gradient(var(--color-primary), transparent);
     width: 50vw;
-    height: 30vh;
+    height: 40vh;
     margin-top: 4rem;
     margin-bottom: 4rem;
     border-radius: 1rem 1rem 1rem 1rem;
@@ -25,13 +26,15 @@ header {
     display: flex;
     justify-content: center;
     vertical-align: middle;
+    align-items: center;
     /* aspect-ratio: 16 / 9; */
 }
 
 .header_inside_animation_container{
     position: absolute;
     text-align: center;
-    top: calc(57vh);
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .header_animation_text{
