@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolioProject/static/css/main.e6e4cc5d.css",
-    "main.js": "/portfolioProject/static/js/main.284ba6db.js",
+    "main.css": "/portfolioProject/static/css/main.b74b5ee2.css",
+    "main.js": "/portfolioProject/static/js/main.b0dfc558.js",
     "static/media/Game1.png": "/portfolioProject/static/media/Game1.95159255c33d0b298b52.png",
     "static/media/car3.png": "/portfolioProject/static/media/car3.8c0d6c15df38c5477dd5.png",
     "static/media/Game2.png": "/portfolioProject/static/media/Game2.433918c038b78aa704fa.png",
+    "static/media/myVehicleApp2.png": "/portfolioProject/static/media/myVehicleApp2.a6631baf2093e2f848be.png",
     "static/media/Game3.png": "/portfolioProject/static/media/Game3.cd22bf6593681b53b648.png",
     "static/media/photobioCircle.jpg": "/portfolioProject/static/media/photobioCircle.d800907eee1c863b4e22.jpg",
     "static/media/kef2pirama.jpg": "/portfolioProject/static/media/kef2pirama.d5afdd4d8d5dc96c6f76.jpg",
     "static/media/kef2finditems.jpg": "/portfolioProject/static/media/kef2finditems.c1bf6cbca8ae145a6aa4.jpg",
+    "static/media/MariosKampourisCV.pdf": "/portfolioProject/static/media/MariosKampourisCV.74c36a37c016c1f97331.pdf",
     "static/media/kef2finditemshelp.jpg": "/portfolioProject/static/media/kef2finditemshelp.fff4e66194c8b60738c5.jpg",
-    "static/media/Marios_Kampouris_Resume.pdf": "/portfolioProject/static/media/Marios_Kampouris_Resume.64bb884f3a80a1497974.pdf",
     "static/media/car1.JPG": "/portfolioProject/static/media/car1.740aa44fc9e5106d9ded.JPG",
     "static/media/car2.JPG": "/portfolioProject/static/media/car2.edb66b1865ef7d2022b2.JPG",
     "static/media/meals1.JPG": "/portfolioProject/static/media/meals1.f9acc7b137c9efecb974.JPG",
@@ -20,12 +21,13 @@
     "static/media/Time1.JPG": "/portfolioProject/static/media/Time1.3cc21d58017a7a7a9a46.JPG",
     "static/media/meals3.JPG": "/portfolioProject/static/media/meals3.8fc37f1aca23dbdbbdbf.JPG",
     "static/media/Time2.JPG": "/portfolioProject/static/media/Time2.aab465d4e5d298fe0be1.JPG",
+    "static/media/myVehicleApp1.png": "/portfolioProject/static/media/myVehicleApp1.dee3ac8792553e0ebbcc.png",
     "index.html": "/portfolioProject/index.html",
-    "main.e6e4cc5d.css.map": "/portfolioProject/static/css/main.e6e4cc5d.css.map",
-    "main.284ba6db.js.map": "/portfolioProject/static/js/main.284ba6db.js.map"
+    "main.b74b5ee2.css.map": "/portfolioProject/static/css/main.b74b5ee2.css.map",
+    "main.b0dfc558.js.map": "/portfolioProject/static/js/main.b0dfc558.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6e4cc5d.css",
-    "static/js/main.284ba6db.js"
+    "static/css/main.b74b5ee2.css",
+    "static/js/main.b0dfc558.js"
   ]
 }
