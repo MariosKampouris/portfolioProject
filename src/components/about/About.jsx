@@ -33,7 +33,7 @@ const About = () => {
               </small>
               
             </article>
-            <article className='about__card fadeIn animate--delay-025s'>
+            <article className='about__card fadeIn'>
               <BiHeart className='about__icon'/>
               <h5>Coding Passion</h5>
               <small>
@@ -43,7 +43,7 @@ const About = () => {
               <HiMinusSm className='about__dashIcon'/> Cutting Edge Technologies <br/>
               </small>
             </article>
-            <article className='about__card fadeIn animate--delay-05s'>
+            <article className='about__card fadeIn'>
               <FaAward className='about__icon'/>
               <h5>Degree</h5>
               <small>Bachelor in Information Technology Engineering at International Hellenic University.</small>

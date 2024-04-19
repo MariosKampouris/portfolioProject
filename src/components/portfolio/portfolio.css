@@ -93,7 +93,10 @@
 
 .lastSlide {
     text-align: center;
-    margin-top: 18rem;
+    /* margin-top: 18rem; */
+    margin-top: 30vh;
+    /* top: 50vh; */
+    vertical-align: middle;
     width: 100%;
     height: 100%;
     font-size: 1.6rem;
@@ -169,14 +172,18 @@
         grid-template-columns: 1fr;
     }
 
+    .portfolio__image__container__wide__twoImages {
+        grid-template-columns: 1fr;
+    }
+
     .portfolio__image__container {
         grid-template-columns: 1fr;
     }
 
 
     .portfolio__Swiper__Image__Legends {
-        width: 64vw;
-        height: 20vh;
+        width: 63vw;
+        height: 17.2vh;
     }
     
     .portfolio__Swiper__Image__Blender {
