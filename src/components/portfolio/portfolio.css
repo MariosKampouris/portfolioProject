@@ -50,24 +50,24 @@
 }
 
 .portfolio__Swiper__Image__AR {
-    width: 12rem;
-    height: 26rem;
+    width: 10.6vw;
+    height: 23vw;
     overflow: hidden;
     border-radius: 2rem;
     transition: var(--transition);
 }
 
 .portfolio__Swiper__Image__Legends {
-    width: 30rem;
-    height: 16.8rem;
+    width: 24vw;
+    height: 13vw;
     overflow: hidden;
     border-radius: 2rem;
     transition: var(--transition);
 }
 
 .portfolio__Swiper__Image__My_Vehicles {
-    width: 30rem;
-    height: 16.8rem;
+    width: 24vw;
+    height: 13vw;
     overflow: hidden;
     border-radius: 2rem;
     border: 1px solid transparent;
@@ -76,16 +76,16 @@
 }
 
 .portfolio__Swiper__Image__Blender {
-    width: 30rem;
-    height: 16.2rem;
+    width: 24vw;
+    height: 13vw;
     overflow: hidden;
     border-radius: 2rem;
     transition: var(--transition);
 }
 
 .portfolio__Swiper__Image__Meals {
-    width: 12rem;
-    height: 26rem;
+    width: 10.6vw;
+    height: 23vw;
     overflow: hidden;
     border-radius: 2rem;
     transition: var(--transition);
@@ -141,7 +141,7 @@
 }
 
 .portfolio__item h3 {
-    margin: 1.2rem 0 2rem;
+    margin: 2rem 0 2rem;
 }
 
 .portfolio__item-cta {
@@ -157,9 +157,13 @@
         gap: 1.2rem;
     }
 
-    .portfolio__image__container__wide {
+    /* .portfolio__image__container__wide {
         grid-template-columns: 1fr;
     }
+
+    .portfolio__image__container__wide__twoImages {
+        grid-template-columns: 1fr;
+    } */
 }
 
 /* ===================== MEDIA QUERIES (SMALL DEVICES) ========================= */
@@ -177,13 +181,29 @@
         grid-template-columns: 1fr;
     }
 
+
     .portfolio__Swiper__Image__Legends {
-        width: 20rem;
-        height: 10rem;
+        width: 64vw;
+        height: 20vh;
     }
     
     .portfolio__Swiper__Image__Blender {
-        width: 20rem;
-        height: 10rem;
+        width: 64vw;
+        height: 20vh;
+    }
+
+    .portfolio__Swiper__Image__My_Vehicles{
+        width: 64vw;
+        height: 20vh;
+    }
+
+    .portfolio__Swiper__Image__AR{
+        width: 35vw;
+        height: 43vh;
+    }
+
+    .portfolio__Swiper__Image__Meals{
+        width: 35vw;
+        height: 43vh;
     }
 }
