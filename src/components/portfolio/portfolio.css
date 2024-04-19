@@ -156,14 +156,6 @@
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
     }
-
-    /* .portfolio__image__container__wide {
-        grid-template-columns: 1fr;
-    }
-
-    .portfolio__image__container__wide__twoImages {
-        grid-template-columns: 1fr;
-    } */
 }
 
 /* ===================== MEDIA QUERIES (SMALL DEVICES) ========================= */
