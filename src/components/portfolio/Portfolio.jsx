@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react"
 import './portfolio.css'
 import myVehicle1 from '../../assets/PortfolioAssets/myVehicleApp1.png'
 import myVehicle2 from '../../assets/PortfolioAssets/myVehicleApp2.png'
+import myVehicle3 from '../../assets/PortfolioAssets/myVehicleApp3.png'
 import AR1 from '../../assets/PortfolioAssets/kef2finditems.jpg'
 import AR2 from '../../assets/PortfolioAssets/kef2finditemshelp.jpg'
 import AR3 from '../../assets/PortfolioAssets/kef2pirama.jpg'
@@ -58,12 +59,15 @@ function Portfolio() {
       >
         <SwiperSlide>
           <div className="portfolio__item"> 
-              <div className="portfolio__image__container__wide__twoImages">
+              <div className="portfolio__image__container__wide">
                 <div className="portfolio__Swiper__Image__My_Vehicles">
                   <img src={myVehicle1} alt='About Image'/>
                 </div>
                 <div className="portfolio__Swiper__Image__My_Vehicles">
                   <img src={myVehicle2} alt='About Image'/>
+                </div>
+                <div className="portfolio__Swiper__Image__My_Vehicles">
+                  <img src={myVehicle3} alt='About Image'/>
                 </div>
               </div>
               <h3>My Vehicle Hub: Streamlined Vehicle Management with Angular and Google Firebase <IoCarSport className="portfolio__Swiper__Icon"/></h3>

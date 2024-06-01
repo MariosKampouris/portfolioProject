@@ -29,7 +29,9 @@ const About = () => {
               <GiOfficeChair className='about__icon'/>
               <h5>Experience</h5>
               <small>
-              <HiMinusSm className='about__dashIcon'/> 2+ years Fullstack Web Developer <br/> <HiMinusSm className='about__dashIcon'/> 8 months Quality Assurance
+              <HiMinusSm className='about__dashIcon'/> 2+ years Fullstack Web Developer <br/> 
+              <HiMinusSm className='about__dashIcon'/> 1+ year Front End Developer Freelancing <br/> 
+              <HiMinusSm className='about__dashIcon'/> 8 months Quality Assurance
               </small>
               
             </article>
