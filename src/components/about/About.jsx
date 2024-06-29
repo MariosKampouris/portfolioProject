@@ -40,8 +40,8 @@ const About = () => {
               <h5>Coding Passion</h5>
               <small>
               <HiMinusSm className='about__dashIcon'/> Web Development <br/>
-              <HiMinusSm className='about__dashIcon'/> Game Development <br/>
-              <HiMinusSm className='about__dashIcon'/> Game Design <br/>
+              <HiMinusSm className='about__dashIcon'/> Front End Solutions <br/>
+              <HiMinusSm className='about__dashIcon'/> Game Development & Design <br/>
               <HiMinusSm className='about__dashIcon'/> Cutting Edge Technologies <br/>
               </small>
             </article>

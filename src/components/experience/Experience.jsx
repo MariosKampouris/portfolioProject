@@ -17,6 +17,13 @@ function Experience() {
           <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
+                <h4>React</h4>
+                <small className='text-light'></small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
                 <h4>Angular</h4>
                 <small className='text-light'></small>
               </div>
@@ -24,21 +31,14 @@ function Experience() {
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>ReactJS</h4>
+                <h4>HTML & CSS</h4>
                 <small className='text-light'></small>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>HTML</h4>
-                <small className='text-light'></small>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon'/>
-              <div>
-                <h4>CSS</h4>
+                <h4>Redux & GraphQL</h4>
                 <small className='text-light'></small>
               </div>
             </article>
@@ -52,7 +52,7 @@ function Experience() {
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>Ext JS</h4>
+                <h4>REST APIs</h4>
                 <small className='text-light'></small>
               </div>
             </article>
